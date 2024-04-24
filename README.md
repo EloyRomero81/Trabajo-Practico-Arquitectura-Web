@@ -66,8 +66,8 @@ Esta API proporciona un servicio integral para empresas que desean vender sus pr
 #### REQUEST
 - GET /clientes/{id}: Obtiene los detalles de un cliente específico identificado por su ID.
   - id (int): El id del producto.  
-### RESPONSE
-- ### Código: Descripción
+#### RESPONSE
+- #### Código: Descripción
 - 200: La operación se ha realizado con éxito.
 - 400: La operación no se ha podido ejecutar debido a un error en el Request o el ID no existe.
 - 500: Error del servidor al procesar el Request.
