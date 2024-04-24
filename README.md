@@ -3,59 +3,67 @@ Esta API proporciona un servicio integral para empresas que desean vender sus pr
 
 # Endpoints Disponibles:
 
-## Productos
-### REQUEST
+## Productos 
+
+### GET Productos
+#### REQUEST
 - GET /productos: Obtiene una lista de todos los productos disponibles en el catálogo de la empresa.
-### RESPONSE
-- ### Código: Descripción
+#### RESPONSE
+- #### Código: Descripción
 - 200: La operación se ha realizado con éxito.
 - 400: La operación no se ha podido ejecutar debido a un error en el Request.
 - 500: Error del servidor al procesar el Request.
 
-### REQUEST
+#### REQUEST
 - GET /productos/{id}: Obtiene los detalles de un producto específico identificado por su ID.
   - id (int): El id del producto.
-### RESPONSE
-- ### Código: Descripción
+#### RESPONSE
+- #### Código: Descripción
 - 200: La operación se ha realizado con éxito.
 - 400: La operación no se ha podido ejecutar debido a un error en el Request o el ID no existe.
 - 500: Error del servidor al procesar el Request.
 
-### REQUEST
+### POST Productos
+#### REQUEST
 - POST /productos: Permite crear un nuevo producto en el catálogo de la empresa.
-### RESPONSE
-- ### Código: Descripción
+#### RESPONSE
+- #### Código: Descripción
 - 200: La operación se ha realizado con éxito.
 - 400: La operación no se ha podido ejecutar debido a un error en el Request.
 - 500: Error del servidor al procesar el Request.
 
-### REQUEST
+### PUT Productos
+#### REQUEST
 - PUT /productos/{id}: Permite actualizar los detalles de un producto existente identificado por su ID.
   - id (int): El id del producto.
-### RESPONSE
-- ### Código: Descripción
+#### RESPONSE
+- #### Código: Descripción
 - 200: La operación se ha realizado con éxito.
 - 400: La operación no se ha podido ejecutar debido a un error en el Request o el ID no existe.
 - 500: Error del servidor al procesar el Request.
 
-### REQUEST
+### DELETE Productos
+#### REQUEST
 - DELETE /productos/{id}: Permite eliminar un producto del catálogo de la empresa.
     - id (int): El id del producto.
-### RESPONSE
-- ### Código: Descripción
+#### RESPONSE
+- #### Código: Descripción
 - 200: La operación se ha realizado con éxito.
 - 400: La operación no se ha podido ejecutar debido a un error en el Request o el ID no existe.
 - 500: Error del servidor al procesar el Request.
 
-### REQUEST
+## CLientes
+
+### GET Clientes
+#### REQUEST
 - GET /clientes: Obtiene una lista de todos los clientes registrados en la plataforma.
-### RESPONSE
-- ### Código: Descripción
+#### RESPONSE
+- #### Código: Descripción
 - 200: La operación se ha realizado con éxito.
 - 400: La operación no se ha podido ejecutar debido a un error en el Request.
 - 500: Error del servidor al procesar el Request.
 
-### REQUEST
+#### REQUEST
 - GET /clientes/{id}: Obtiene los detalles de un cliente específico identificado por su ID.
   - id (int): El id del producto.  
 ### RESPONSE
@@ -64,28 +72,31 @@ Esta API proporciona un servicio integral para empresas que desean vender sus pr
 - 400: La operación no se ha podido ejecutar debido a un error en el Request o el ID no existe.
 - 500: Error del servidor al procesar el Request.
 
-### REQUEST
+### POST Clientes
+#### REQUEST
 - POST /clientes: Permite crear un nuevo perfil de cliente en la plataforma.
-### RESPONSE
-- ### Código: Descripción
+#### RESPONSE
+- #### Código: Descripción
 - 200: La operación se ha realizado con éxito.
 - 400: La operación no se ha podido ejecutar debido a un error en el Request.
 - 500: Error del servidor al procesar el Request.
 
-### REQUEST
+### PUT Clientes
+#### REQUEST
 - PUT /clientes/{id}: Permite actualizar los detalles de un cliente existente identificado por su ID.
   - id (int): El id del producto.
-### RESPONSE
-- ### Código: Descripción
+#### RESPONSE
+- #### Código: Descripción
 - 200: La operación se ha realizado con éxito.
 - 400: La operación no se ha podido ejecutar debido a un error en el Request o el ID no existe.
 - 500: Error del servidor al procesar el Request.
 
-### REQUEST
+### DELETE Clientes
+#### REQUEST
 - DELETE /clientes/{id}: Permite eliminar un cliente de la plataforma.
   - id (int): El id del producto.
-### RESPONSE
-- ### Código: Descripción
+#### RESPONSE
+- #### Código: Descripción
 - 200: La operación se ha realizado con éxito.
 - 400: La operación no se ha podido ejecutar debido a un error en el Request o el ID no existe.
 - 500: Error del servidor al procesar el Request.
