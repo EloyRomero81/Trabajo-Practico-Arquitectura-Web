@@ -52,7 +52,7 @@ Esta API proporciona un servicio integral para empresas que desean vender sus pr
 - 400: La operación no se ha podido ejecutar debido a un error en el Request o el ID no existe.
 - 500: Error del servidor al procesar el Request.
 
-## CLientes
+## Clientes
 
 ### GET Clientes
 #### REQUEST
