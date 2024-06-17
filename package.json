@@ -1,0 +1,20 @@
+{
+  "name": "tp-api-arquitectura-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "iniciar": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
